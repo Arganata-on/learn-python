@@ -16,24 +16,24 @@ is_sunny = True
 
 if temp2 >= 28 and is_sunny:
     print("It is HOT outside 🥵")
-    print("It is SUNNY")
+    print("It is SUNNY ☀️")
 
 elif temp2 <= 0 and is_sunny:
     print("It is COLD outside 🥶")
-    print("It is SUNNY")
+    print("It is SUNNY ☀️")
+
+elif temp2 >= 28 and is_sunny:
+    print("It is WARM outside 😐")
+    print("It is SUNNY ☀️")
 
 elif temp2 <= 0 and is_sunny:
-    print("It is COLD outside")
-    print("It is SUNNY")
+    print("It is HOT outside 🥵")
+    print("It is SUNNY ☀️")
 
-elif temp2 <= 0 and is_sunny:
-    print("It is COLD outside")
-    print("It is SUNNY")
+elif temp2 <= 0 and not is_sunny:
+    print("It is COLD outside 🥶")
+    print("It is CLOUDY ☁️")
 
-elif temp2 <= 0 and is_sunny:
-    print("It is COLD outside")
-    print("It is SUNNY")
-
-elif temp2 <= 0 and is_sunny:
-    print("It is COLD outside")
-    print("It is SUNNY")
+elif 28 > temp2 > 0 and not is_sunny:
+    print("It is WARM outside 😐")
+    print("It is CLOUDY ☁️")
