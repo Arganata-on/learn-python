@@ -13,8 +13,8 @@ else:
     print("The outdoor event is still scheduled")
 """
 
-temp = -5
-is_sunny = True
+temp = 28
+is_sunny = False
 
 if temp >= 28 and is_sunny:
     print("It is HOT outside 🥵")
